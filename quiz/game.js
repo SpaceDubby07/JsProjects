@@ -22,7 +22,7 @@ let questions = [];
 //fetch questions
 fetch("https://opentdb.com/api.php?amount=150&type=multiple")
   .then((response) => {
-    // console.log(response);
+    // console.log(response)
     return response.json();
   })
   .then((loadedQuestions) => {
